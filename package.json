@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "diwe-ui",
-  "version": "1.0.0",
+  "name": "@we-fe/we-ui",
+  "version": "0.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
