@@ -4,14 +4,14 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'we-ui';
+import { Foo } from '@we-fe/we-ui';
 
 export default () => <Foo title="First Demo" />;
 ```
 
 ```tsx
 import React from 'react';
-import { Foo } from 'we-ui';
+import { Foo } from '@we-fe/we-ui';
 
 export default () => <Foo title="First Demo" />;
 ```

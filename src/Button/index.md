@@ -4,7 +4,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'we-ui';
+import { Button } from '@we-fe/we-ui';
 
 import './demo.less';
 
