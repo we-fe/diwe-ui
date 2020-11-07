@@ -1,4 +1,4 @@
-# diwe-ui
+# we-ui
 
 ## Getting Started
 
