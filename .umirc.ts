@@ -9,5 +9,8 @@ export default defineConfig({
   outputPath: 'docs-dist',
   base: '/we-ui/',
   publicPath: '/we-ui/',
+  history: {
+    type: 'hash',
+  },
   // more config: https://d.umijs.org/config
 });
