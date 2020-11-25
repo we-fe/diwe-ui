@@ -1,0 +1,52 @@
+@import '../styles/config.less';
+
+.we-divider {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  &::before,
+  &::after {
+    content: '';
+    height: 1px;
+    background-color: #f0f0f0;
+  }
+
+  &::before {
+    width: 100%;
+  }
+
+  &-left {
+    &::before {
+      width: 10%;
+    }
+    &::after {
+      flex: 1;
+    }
+  }
+  &-right {
+    &::before {
+      flex: 1;
+    }
+    &::after {
+      width: 10%;
+    }
+  }
+  &-center {
+    justify-content: center;
+    &::before,
+    &::after {
+      flex: 1;
+    }
+  }
+  &-vertical {
+    display: inline-block;
+    margin: auto 10px;
+    width: 1px;
+    height: 0.9em;
+    background-color: #f0f0f0;
+  }
+}
+.we-divider-text {
+  margin: 0 10px;
+  flex-shrink: 0;
+}
